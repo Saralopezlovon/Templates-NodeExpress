@@ -1,2 +1,2 @@
 # Templates-NodeExpress
-Ejercicio sobre templates con Node.js + Express
+Ejercicio sobre Node.js + Express con vistas renderizadas como templates PUG.
