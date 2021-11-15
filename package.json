@@ -1,0 +1,23 @@
+{
+  "name": "templates-nodeexpress",
+  "version": "1.0.0",
+  "description": "Ejercicio sobre Node.js + Express con vistas renderizadas como templates PUG.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saralopezlovon/Templates-NodeExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saralopezlovon/Templates-NodeExpress/issues"
+  },
+  "homepage": "https://github.com/Saralopezlovon/Templates-NodeExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
