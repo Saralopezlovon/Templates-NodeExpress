@@ -3,6 +3,8 @@ const app = express()
 const port = 3000
 
 app.use(express.json()) // Para habilitar envio de JSON al servidor
+app.set('view engine', 'pug');
+app.set('views','./views');
 
 const infoWeb = require('./controllers/infoWeb')
 

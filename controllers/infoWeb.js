@@ -2,6 +2,7 @@ const infoWeb = {
 
     getInfoHome: (req,res)=>{
         console.log("*******AQUI SE MUESTRA LA HOME*******");
+        res.render('home', {name:"Sara", number: 3});
         // console.log(req.params);
     },
 
