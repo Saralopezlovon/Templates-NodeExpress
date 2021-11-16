@@ -1,3 +1,25 @@
-body{
-    border-color: greenyellow;
+.bodyHome{
+    background-color: greenyellow;
+}
+
+.bodyAbout{
+    background-color: lightblue;
+}
+
+.bodyContact{
+    background-color: lightgreen;
+}
+
+.bodyLocation{
+    background-color: lightpink;
+}
+
+.bodyMission{
+    background-color: lightseagreen;
+}
+
+.titulo{
+    color:white;
+    margin-top: 150px;
+    
 }

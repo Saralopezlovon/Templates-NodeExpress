@@ -1,13 +1,14 @@
 doctype html
 html
    head
-      title="Home"
-      //- link(rel="stylesheet", href="../public/styles/style.css")
-      style.
-         body{background-color:orange}
-   body
+      title="Location"
+      link(rel="stylesheet", href="./styles/style.css")
+      link(rel="stylesheet", href="./styles/styleHeader.css")
+      link(rel="stylesheet", href="./styles/styleFooter.css")
+
+   body.bodyLocation
       include ./header.pug
 
-      h1 Nos puedes encontrar en la #{direccion} 
+      h1.titulo Nos puedes encontrar en la #{direccion} 
 
       include ./footer.pug

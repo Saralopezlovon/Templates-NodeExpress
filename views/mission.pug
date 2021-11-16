@@ -1,14 +1,16 @@
 doctype html
 html
    head
-      title="Home"
-      //- link(rel="stylesheet", href="../public/styles/style.css")
-      style.
-         body{background-color:red}
-   body
+      title="Mission"
+      link(rel="stylesheet", href="./styles/style.css")
+      link(rel="stylesheet", href="./styles/styleHeader.css")
+      link(rel="stylesheet", href="./styles/styleFooter.css")
+      
+   body.bodyMission
+
       include ./header.pug
 
-      h1 Nuestra misión es
+      h1.titulo Nuestra misión es
       h3 #{slogan}
 
       include ./footer.pug

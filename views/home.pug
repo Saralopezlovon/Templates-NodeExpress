@@ -2,12 +2,14 @@ doctype html
 html
    head
       title="Home"
-      //- link(rel="stylesheet", href="../public/styles/style.css")
-      style.
-         body{background-color:pink}
-   body
+      link(rel="stylesheet", href="./styles/style.css")
+      link(rel="stylesheet", href="./styles/styleHeader.css")
+      link(rel="stylesheet", href="./styles/styleFooter.css")
+     
+   body.bodyHome
       include ./header.pug
 
-      h1 Bienvenido a #{name}
+      h1.titulo Bienvenido a #{name}
+      img(src="https://mott.pe/noticias/wp-content/uploads/2017/12/aplicaciones-para-disenar-ropa-que-todo-disenador-de-moda-debe-tener-1.png", alt="empresa")
 
       include ./footer.pug

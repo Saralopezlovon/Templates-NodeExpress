@@ -6,6 +6,8 @@ app.use(express.json()) // Para habilitar envio de JSON al servidor
 app.set('view engine', 'pug');
 app.set('views','./views');
 
+app.use(express.static('public')) //Para ceder la carpeta public a resources
+
 const infoWeb = require('./controllers/infoWeb')
 
 // GET http://localhost:3000/
